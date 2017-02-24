@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="手机防盗"/>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="安全号码"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_safe_number"
+            android:text="0000"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tv_safe_number"
+            android:background="@mipmap/listview_divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="防盗保护是否开启"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/lock"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/iv_lock"
+            android:background="@mipmap/listview_divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_safe_again"
+        android:background="@drawable/selector_safe_reset"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:text="重新进入设置向导"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#ccc"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:text="功能简介"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="8dp"
+        android:text="GPS追踪:#*location*#"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="8dp"
+        android:text="播放报警音乐:#*alarm*#"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="8dp"
+        android:text="数据销毁#*wipedata*#"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="8dp"
+        android:text="远程锁屏:#*lockscreen*#"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

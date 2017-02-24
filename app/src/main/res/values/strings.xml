@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Safe</string>
+    <string name="marquee">学习安卓的第一个实例程序,看到程序运行的时候心里非常的开心啊.期待以后这样的机会越来越多.</string>
+    <string name="sample_device_admin">超级管理员</string>
+    <string name="sample_device_admin_description">一键激活，一键锁屏，一键清除，一键卸载</string>
+
+</resources>
