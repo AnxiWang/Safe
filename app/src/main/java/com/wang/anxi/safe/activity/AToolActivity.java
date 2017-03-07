@@ -25,6 +25,7 @@ public class AToolActivity extends Activity{
     private TextView tv_query_address;
     private TextView tv_sms_backup;
     private TextView tv_number_query;
+    private TextView tv_app_lock;
     //    private ProgressBar pb_bar;
 
     @Override
@@ -35,6 +36,17 @@ public class AToolActivity extends Activity{
         initPhoneAddress();
         initSmsBackUp();
         initCommonNumberQuery();
+        initAppLock();
+    }
+
+    private void initAppLock() {
+        tv_app_lock = (TextView) findViewById(R.id.tv_app_lock);
+        tv_app_lock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), LockAppActivity.class));
+            }
+        });
     }
 
     private void initCommonNumberQuery() {

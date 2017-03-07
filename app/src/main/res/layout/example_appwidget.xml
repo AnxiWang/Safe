@@ -18,7 +18,8 @@
         android:paddingTop="3.0dip" >
 
         <TextView
-            android:id="@+id/tv_process_count"
+            android:id="@+id/tv_widget_process_count"
+            android:textColor="@color/colorBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10.0dip" />
@@ -31,7 +32,8 @@
             android:background="@drawable/widget_bg_portrait_child_divider" />
 
         <TextView
-            android:id="@+id/tv_process_memory"
+            android:id="@+id/tv_widget_process_memory"
+            android:textColor="@color/colorBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10.0dip"/>
