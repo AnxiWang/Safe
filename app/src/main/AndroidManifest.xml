@@ -59,6 +59,7 @@
         <activity android:name=".activity.ProcessManagerActivity"/>
         <activity android:name=".activity.ProcessSettingActivity"/>
         <activity android:name=".activity.CommonNumberQueryActivity"/>
+        <activity android:name=".activity.LockAppActivity"/>
 
         <receiver android:name="receiver.BootReceiver">
             <intent-filter>

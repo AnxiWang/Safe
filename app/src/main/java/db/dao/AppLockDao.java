@@ -49,7 +49,7 @@ public class AppLockDao {
         db.close();
     }
 
-    public List<String> findAll(String packagename) {
+    public List<String> findAll() {
         SQLiteDatabase db = appLockOpenHelper.getWritableDatabase();
         Cursor cursor = db.query("applock", new String[]{"packagename"}, null, null, null, null, null);
         List<String> lockAppList = new ArrayList<String>();
